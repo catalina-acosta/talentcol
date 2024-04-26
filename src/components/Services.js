@@ -46,9 +46,11 @@ function Services() {
           </Col>
         </Row>
       </Container>
-      <Container className='timeline-block'>
-        <h1>Empieza ahora!</h1>
-        <h2>Te ayudamos con todo el proceso: </h2>
+      <Container className='services-map-block' fluid>
+        <div className='section-title'>
+          <h1>Empieza ahora!</h1>
+          <h2>Te ayudamos con todo el proceso: </h2>
+        </div>
         <ServicesMap />
       </Container>
     </div>

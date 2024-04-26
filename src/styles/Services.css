@@ -1,5 +1,5 @@
 .services-block {
-  background-color: #5968a4;
+  background-color: var(--background-color);
   color: white;
 }
 
@@ -20,4 +20,13 @@
 
 .card {
   padding: 0.3rem;
+}
+
+.services-map-block {
+  background-color: var(--background-color
+  );
+}
+
+.section-title {
+  text-align: center;
 }
