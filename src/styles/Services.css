@@ -1,0 +1,23 @@
+.services-block {
+  background-color: #5968a4;
+  color: white;
+}
+
+.cards-container {
+  display: flex;
+  padding: 6rem;
+  justify-content: space-around;
+}
+
+.service-card {
+  height: 100%;
+}
+
+.card-img {
+  height: 200px; /* Set the desired height for the images */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.card {
+  padding: 0.3rem;
+}

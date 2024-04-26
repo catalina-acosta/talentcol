@@ -7,8 +7,8 @@ import logo from '../assets/talentcol-logo-sml.png'
 
 function Header() {
   return (
-    <Navbar expand="lg" style={{backgroundColor:"#010C80"}}>
-    <Container>
+    <Navbar expand="lg" style={{backgroundColor:"#010C80"}} fixed='top'>
+    <Container className='navbar'>
       <Navbar.Brand href="#home">
         <img src={logo} alt='Talentcol Logo' style={{maxWidth:"200px"}}/>
       </Navbar.Brand>

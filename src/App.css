@@ -1,12 +1,16 @@
 :root {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: #010C80;
-  color: #77D4FC ;
+  --background-color: #010C80;
+  --font-color: #77D4FC ;
+  --font-color2: white;
 }
 
+html {
+  background-color: var(--background-color);
+}
 a.nav-link {
-  color: #77D4FC;
+  color: var(--font-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
