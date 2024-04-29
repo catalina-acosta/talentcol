@@ -1,0 +1,10 @@
+.item {
+  padding: 1rem;
+}
+.light-blue {
+  background-color: var(--accent-color);
+}
+
+.dark-blue {
+  background-color: var(--background-color);
+}

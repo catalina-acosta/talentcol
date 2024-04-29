@@ -7,10 +7,10 @@ import logo from '../assets/talentcol-logo-sml.png'
 
 function Header() {
   return (
-    <Navbar expand="lg" style={{backgroundColor:"#010C80"}}>
-    <Container>
+    <Navbar data-bs-theme="dark" expand="lg" style={{backgroundColor:"#010C80"}} fixed='top'>
+    <Container className='navbar'>
       <Navbar.Brand href="#home">
-        <img src={logo} alt='Talentcol Logo' style={{maxWidth:"200px"}}/>
+        <img src={logo} alt='Talentcol Logo' style={{maxWidth:"8rem"}} className='logo'/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >

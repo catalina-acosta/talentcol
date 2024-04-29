@@ -1,3 +1,14 @@
-#header .navbar{
+.navbar-nav .nav-link.active {
+  color: white;
+}
 
+@media only screen and (max-width: 767px) {
+  .navbar > .container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .navbar-toggler-icon {
+    color: aquamarine;
+  }
 }
