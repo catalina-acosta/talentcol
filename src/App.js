@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Services from './components/Services'
+import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Contact />
+        <Footer />
       </main>
     </div>
   );

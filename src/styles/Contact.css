@@ -1,0 +1,42 @@
+#contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.title-holder {
+  padding: calc(var(--bs-gutter-x)* .5)
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=search],
+textarea {
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.contact-block {
+  position: relative;
+}
+
+.contact-block .row {
+  margin: 0 0 25px;
+}
+
+.contact-block .btn-holder {
+  text-align: center;
+}
+
+.contact-block .contact-form {
+  margin: 0 0 60px;
+}
+
+@media only screen and (max-width: 767px) {
+  input[type=text],
+  input[type=email] {
+    margin-bottom: 1rem;
+  }
+}
