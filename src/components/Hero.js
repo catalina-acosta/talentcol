@@ -11,11 +11,11 @@ function Hero() {
       <Container className='p-0 hero-container'>
         <Image src={heroImg} alt='Bundestag' className='hero-img' />
         <div className='hero-overlay' />
-        <div className='hero-text-block'>
-          <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Cumple tu sueno de trabajar en Alemania</h1>
-          <h1 style={{ fontSize: '2rem' }}>Gana el triple de tu salario actual</h1>
+        <Container className='hero-text-block' fluid>
+          <h1>Cumple tu sueño de trabajar en Alemania</h1>
+          <h2>Gana el triple de tu salario actual</h2>
           <Button variant='outline-warning' size='lg'>agenda una llamada con nosotros!</Button>
-        </div>
+        </Container>
       </Container>
     </div>
   );

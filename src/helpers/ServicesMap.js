@@ -15,7 +15,7 @@ function ServicesMap() {
                 <Col md={6} className="item dark-blue">
                     <h2>Curso de Alemán</h2>
                     <p>Responsive and stunning design to enhance user experience.</p>
-                    <h2><i class="fa-solid fa-circle-check"></i></h2>
+                    <h2><i class="fa-solid fa-school"></i></h2>
                 </Col>
             </Row>
             <Row>
@@ -27,7 +27,7 @@ function ServicesMap() {
                 <Col md={6} className="item light-blue">
                     <h2>Llegada a Alemania</h2>
                     <p>Responsive and stunning design to enhance user experience.</p>
-                    <h2><i class="fa-solid fa-circle-check"></i></h2>
+                    <h2><i class="fa-solid fa-flag"></i></h2>
                 </Col>
             </Row>
         </Container>
