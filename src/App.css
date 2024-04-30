@@ -22,3 +22,11 @@ img {
   height: auto;
   vertical-align: top;
 }
+
+h1 {
+  font-family: 'nunito', sans-serif;
+}
+
+h2, h3, h4, p {
+  font-family: 'roboto', sans-serif;
+}
