@@ -38,7 +38,7 @@ function Contact() {
           </Col>
         </Row>
         <div className='btn-holder'>
-          <Button type='submit'>Submit</Button>
+          <Button variant="outline-warning" type='submit' size="lg" >Submit</Button>
         </div>
       </Form>
     </Container>

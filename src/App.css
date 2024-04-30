@@ -8,7 +8,7 @@
   --accent-color: #4B91F1;
 }
 
-html {
+html, main {
   background-color: var(--background-color);
 }
 

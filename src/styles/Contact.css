@@ -17,7 +17,9 @@ textarea {
   padding: 5px 10px;
   font-size: 15px;
 }
-
+.form-label, .title-holder h1 {
+  color: var(--font-color)
+}
 .contact-block {
   position: relative;
 }
