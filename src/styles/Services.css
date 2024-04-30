@@ -1,6 +1,6 @@
 .services-block {
   background-color: var(--background-color);
-  color: white;
+  color: var(--font-color2);
 }
 
 .cards-container {
@@ -20,6 +20,9 @@
 
 .card {
   padding: 0.3rem;
+  background-color: var(--background-color);
+  color: var(--font-color2);
+  border: 1px solid var(--font-color2);
 }
 
 .services-map-block {

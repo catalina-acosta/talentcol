@@ -9,37 +9,39 @@ import ServicesMap from '../helpers/ServicesMap';
 function Services() {
   return (
     <div className='services-block' id='services'>
+      <h1>Tu perfil: </h1>
       <Container fluid className='cards-container'>
         <Row className='justify-content-center'>
           <Col sm={12} md={6} lg={4} className='mb-3'>
             <Card className='service-card'>
-              <Card.Img variant='top' src={truckDriverImg} className='card-img' />
+              <Card.Img variant='top' src={nurseImg} className='card-img' />
               <Card.Body>
-                <Card.Title>Eres conductor de camión?</Card.Title>
+                <Card.Title>Eres enfermero o auxiliar de enfermería?</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Tienes un título profesional de enfermería o un técnologo en enfermería? O eres estudiante en alguna de estas carreras?
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
+
           <Col sm={12} md={6} lg={4} className='mb-3'>
             <Card className='service-card'>
               <Card.Img variant='top' src={educatorImg} className='card-img' />
               <Card.Body>
                 <Card.Title>Eres educador?</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Tienes una licenciatura en educación infantil o estás estudiando eso? o un título de tecnólogo en educación infantil?
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col sm={12} md={6} lg={4} className='mb-3'>
             <Card className='service-card'>
-              <Card.Img variant='top' src={nurseImg} className='card-img' />
+              <Card.Img variant='top' src={truckDriverImg} className='card-img' />
               <Card.Body>
-                <Card.Title>Eres enfermero?</Card.Title>
+                <Card.Title>Quieres trabajar como conductor de camión?</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Tienes educación bachiller y experiencia como conductor?
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -48,7 +50,7 @@ function Services() {
       </Container>
       <Container className='services-map-block' fluid>
         <div className='section-title'>
-          <h1>Empieza ahora!</h1>
+          <h1 className='title'>Empieza ahora!</h1>
           <h2>Te ayudamos con todo el proceso: </h2>
         </div>
         <ServicesMap />
