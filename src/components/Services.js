@@ -11,7 +11,7 @@ function Services() {
     <div className='services-block' id='services'>
       <Container fluid className='cards-container'>
         <Row className='justify-content-center'>
-          <Col sm={12} md={6} lg={4}>
+          <Col sm={12} md={6} lg={4} className='mb-3'>
             <Card className='service-card'>
               <Card.Img variant='top' src={truckDriverImg} className='card-img' />
               <Card.Body>
@@ -22,7 +22,7 @@ function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={6} lg={4}>
+          <Col sm={12} md={6} lg={4} className='mb-3'>
             <Card className='service-card'>
               <Card.Img variant='top' src={educatorImg} className='card-img' />
               <Card.Body>
@@ -33,7 +33,7 @@ function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={6} lg={4}>
+          <Col sm={12} md={6} lg={4} className='mb-3'>
             <Card className='service-card'>
               <Card.Img variant='top' src={nurseImg} className='card-img' />
               <Card.Body>
