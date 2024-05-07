@@ -1,6 +1,11 @@
 .services-block {
   background-color: var(--background-color);
   color: var(--font-color2);
+  padding-top: 10rem;
+}
+
+.title-holder {
+  text-align: center;
 }
 
 .cards-container {

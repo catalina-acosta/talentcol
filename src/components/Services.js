@@ -9,28 +9,37 @@ import ServicesMap from '../helpers/ServicesMap';
 function Services() {
   return (
     <div className='services-block' id='services'>
-      <h1>Tu perfil: </h1>
+      <Container className='title-holder'><h1 className='title'>Tienes alguno de estos perfiles? </h1></Container>
       <Container fluid className='cards-container'>
         <Row className='justify-content-center'>
           <Col sm={12} md={6} lg={4} className='mb-3'>
             <Card className='service-card'>
               <Card.Img variant='top' src={nurseImg} className='card-img' />
               <Card.Body>
-                <Card.Title>Eres enfermero o auxiliar de enfermería?</Card.Title>
+                <Card.Title>Enfermero / Auxiliar de enfermería
+                </Card.Title>
                 <Card.Text>
-                  Tienes un título profesional de enfermería o un técnologo en enfermería? O eres estudiante en alguna de estas carreras?
+                  <ul>
+                    <li><p>título profesional de enfermería</p></li>
+                    <li><p>técnologo en enfermería</p></li>
+                    <li><p>auxiliar de enfermería</p></li>
+                    <li><p>estudiante de enfermería</p></li>
+                  </ul>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
-
           <Col sm={12} md={6} lg={4} className='mb-3'>
             <Card className='service-card'>
               <Card.Img variant='top' src={educatorImg} className='card-img' />
               <Card.Body>
-                <Card.Title>Eres educador?</Card.Title>
+                <Card.Title>Educador</Card.Title>
                 <Card.Text>
-                  Tienes una licenciatura en educación infantil o estás estudiando eso? o un título de tecnólogo en educación infantil?
+                <ul>
+                    <li><p>licenciatura en educación infantil</p></li>
+                    <li><p>técnologo en educación infantil</p></li>
+                    <li><p>estudiante en educación infantil</p></li>
+                  </ul>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -41,7 +50,10 @@ function Services() {
               <Card.Body>
                 <Card.Title>Quieres trabajar como conductor de camión?</Card.Title>
                 <Card.Text>
-                  Tienes educación bachiller y experiencia como conductor?
+                <ul>
+                    <li><p>bachiller</p></li>
+                    <li><p>experiencia de conductor</p></li>
+                  </ul>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -51,7 +63,7 @@ function Services() {
       <Container className='services-map-block' fluid>
         <div className='section-title'>
           <h1 className='title'>Empieza ahora!</h1>
-          <h2>Te ayudamos con todo el proceso: </h2>
+          <h2 className='subtitle'>Te ayudamos con todo el proceso: </h2>
         </div>
         <ServicesMap />
       </Container>

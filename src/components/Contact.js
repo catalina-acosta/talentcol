@@ -6,7 +6,7 @@ function Contact() {
   return (
     <section id='contact' className='block contact-block'>
     <Container >
-      <div className='title-holder'>
+      <div className='title-holder contact-title'>
         <h1>Contactános</h1>
       </div>
       <Form className='contact-form' >
