@@ -5,7 +5,7 @@
 
 }
 
-.title-holder {
+.contact-title {
   padding: calc(var(--bs-gutter-x)* .5)
 }
 
@@ -17,7 +17,7 @@ textarea {
   padding: 5px 10px;
   font-size: 15px;
 }
-.form-label, .title-holder h1 {
+.form-label, .contact-title h1 {
   color: var(--font-color)
 }
 .contact-block {

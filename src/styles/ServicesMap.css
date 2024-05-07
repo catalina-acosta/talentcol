@@ -1,6 +1,11 @@
 .item {
   padding: 1rem;
 }
+
+.item ul {
+  list-style: none;
+  text-align: left;
+}
 .light-blue {
   background-color: var(--accent-color);
 }
