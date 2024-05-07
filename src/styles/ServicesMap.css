@@ -1,3 +1,11 @@
+.services-map-block {
+  background-color: var(--background-color
+  );
+  color: var(--font-color2);
+}
+
+
+
 .item {
   padding: 1rem;
 }

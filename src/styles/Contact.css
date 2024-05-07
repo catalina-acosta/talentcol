@@ -17,6 +17,10 @@ textarea {
   padding: 5px 10px;
   font-size: 15px;
 }
+
+.message-textarea {
+  height: 80%;
+}
 .form-label, .contact-title h1 {
   color: var(--font-color)
 }

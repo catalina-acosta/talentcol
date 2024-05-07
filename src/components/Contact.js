@@ -11,30 +11,25 @@ function Contact() {
       </div>
       <Form className='contact-form' >
         <Row>
-          <Form.Label>Información </Form.Label>
-          <Col sm={4}>
-            <Form.Control type="text" placeholder="Enter your full name" required />
+          <Col sm={6}>
+            <Form.Label>Información </Form.Label>
+            <Row><Form.Control type="text" placeholder="Enter your full name" required /></Row>
+            <Row><Form.Control type="email" placeholder="Enter your email address" required/></Row>
+            <Row><Form.Control type="tel" placeholder="Enter your phone number" required/></Row>
+            <Row>
+              <Form.Group as={Col} controlId="formGridState" className='p-0'>
+                <Form.Label>Por favor elige una de estas opciones: </Form.Label>
+                <Form.Select defaultValue="Choose...">
+                  <option>Interesado en conducir camiones</option>
+                  <option>Educador</option>
+                  <option>Enfermero</option>
+                </Form.Select>
+              </Form.Group>
+            </Row>
           </Col>
-          <Col sm={4}>
-            <Form.Control type="email" placeholder="Enter your email address" required/>
-          </Col>
-          <Col sm={4}>
-            <Form.Control type="tel" placeholder="Enter your phone number" required/>
-          </Col>
-        </Row>
-        <Row>
-          <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Por favor elige una de estas opciones: </Form.Label>
-            <Form.Select defaultValue="Choose...">
-              <option>Interesado en conducir camiones</option>
-              <option>Educador</option>
-              <option>Enfermero</option>
-            </Form.Select>
-          </Form.Group>
-        </Row>
-        <Row>
-          <Col sm={12}>
-            <Form.Control as="textarea" placeholder="Enter your message" required/>
+          <Col sm={6}>
+          <Form.Label>Tienes alguna pregunta? </Form.Label>
+            <Form.Control as="textarea" placeholder="Enter your message" required className="message-textarea"/>
           </Col>
         </Row>
         <div className='btn-holder'>

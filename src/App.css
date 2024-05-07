@@ -25,8 +25,10 @@ img {
 
 h1 {
   font-family: 'nunito', sans-serif;
+  font-weight: bolder;
 }
 
 h2, h3, h4, p {
   font-family: 'roboto', sans-serif;
+  font-weight: lighter;
 }
