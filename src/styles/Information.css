@@ -1,3 +1,18 @@
 #info-block {
-  color: var(--font-color2)
+  color: var(--font-color2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.col-lg-4 {
+  padding: 0 2rem;
+}
+#info-block p{
+  text-align: justify;
+}
+
+.underline {
+  text-decoration: underline var(--accent-color);
 }

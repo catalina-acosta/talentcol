@@ -7,7 +7,7 @@ function Contact() {
     <section id='contact' className='block contact-block'>
     <Container >
       <div className='title-holder contact-title'>
-        <h1>Contactános</h1>
+        <h1 className='title'>Contactános</h1>
       </div>
       <Form className='contact-form' >
         <Row>
