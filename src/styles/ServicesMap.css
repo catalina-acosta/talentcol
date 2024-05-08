@@ -1,10 +1,7 @@
 .services-map-block {
-  background-color: var(--background-color
-  );
+  background-color: var(--background-color);
   color: var(--font-color2);
 }
-
-
 
 .item {
   padding: 1rem;
@@ -16,6 +13,7 @@
 }
 .light-blue {
   background-color: var(--accent-color);
+  border-radius: 5px;
 }
 
 .dark-blue {

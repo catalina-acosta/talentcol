@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Information.css'
-import { Container, Col, Row } from 'react-bootstrap'
+import { Container, Col, Row, Button } from 'react-bootstrap'
 
 function Information() {
   return (
@@ -23,6 +23,9 @@ function Information() {
           </Col>
         </Row>
       </Container>
+      <Button variant='outline-warning' size='lg' href='https://calendly.com/cata-webdev/30min'>
+        Agenda una llamada ahora!
+      </Button>
     </Container>
   );
 }

@@ -6,18 +6,18 @@ function ServicesMap() {
   return (
     <Container className='services-map-block' fluid>
         <div className='section-title'>
-          <h1 className='title'>Empieza ahora!</h1>
+          <h1 className='title'>Nuestros servicios</h1>
           <h2 className='subtitle'>Te ayudamos con todo el proceso: </h2>
         </div>
       <Container className="text-center my-5">
         <Row>
           <Col md={6} className="item light-blue">
               <h2>Preparación para trabajar en Alemania</h2>
-              <h3><i class="fa-solid fa-graduation-cap"></i></h3>
+              <h2><i class="fa-solid fa-graduation-cap"></i></h2>
               <ul>
                 <li><p><i class="fa-solid fa-circle-check"></i> Curso de alemán</p></li>
                 <li><p><i class="fa-solid fa-circle-check"></i> Homologación del título y cualificaciones necesarias</p></li>
-                <li><p><i class="fa-solid fa-circle-check"></i> Curso de alemán</p></li>
+                <li><p><i class="fa-solid fa-circle-check"></i> Proceso de visado y permiso de trabajo</p></li>
               </ul>
           </Col>
           <Col md={6} className="item dark-blue">
@@ -33,7 +33,7 @@ function ServicesMap() {
         </Row>
         <Row>
           <Col md={6} className="item dark-blue">
-              <h2>Trabajo en Alemania</h2>
+              <h2>Llegada a Alemania</h2>
               <h2><i class="fa-solid fa-briefcase"></i></h2>
               <ul>
               <li><p><i class="fa-solid fa-circle-check"></i> Organización de viaje y pago de gastos de mudanza a Alemania</p></li>
