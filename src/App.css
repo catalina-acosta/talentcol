@@ -1,10 +1,10 @@
 :root {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  --background-color: #06093d;
+  --background-color: #112e42;
   --light-background-color: #5968a4;
   --font-color: #77D4FC ;
-  --font-color2: white;
+  --font-color2: #ededed;
   --accent-color: #4B91F1;
 }
 
@@ -25,6 +25,7 @@ img {
 
 h1 {
   font-family: 'nunito', sans-serif;
+
 }
 
 h2, h3, h4, p {

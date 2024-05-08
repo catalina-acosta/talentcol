@@ -55,7 +55,6 @@
   margin-top: 4rem;
 }
 
-
 @media only screen and (max-width: 767px) {
   .hero-container {
     position: initial;
@@ -68,10 +67,20 @@
 
   .hero-text-block {
     max-width: 90vw;
-    top: unset;
+    top: 40%;
     left: unset;
   }
-  .hero-text-block h1 {
+  .title {
+    font-size: xx-large;
+  }
 
+  .subtitle {
+    font-size: x-large;
+  }
+
+  .extra-info {
+    font-size: large;
+    margin-top: 1rem;
+    font-weight: 100;
   }
 }

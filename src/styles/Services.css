@@ -7,10 +7,12 @@
 .title-holder {
   text-align: center;
 }
-
+.title-holder h1{
+  color: var(--font-color);
+}
 .cards-container {
   display: flex;
-  padding: 6rem;
+  padding: 2rem 6rem 6rem;
   justify-content: space-around;
 }
 
@@ -27,7 +29,12 @@
   padding: 0.3rem;
   background-color: var(--background-color);
   color: var(--font-color2);
-  border: 1px solid var(--font-color2);
+  border: 1px solid var(--font-color);
+}
+
+.card-title {
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .services-map-block {

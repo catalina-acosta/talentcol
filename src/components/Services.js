@@ -4,7 +4,6 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 import educatorImg from '../assets/early-childhood-educator-with-toys-and-child.jpg';
 import truckDriverImg from '../assets/man-with-glasses-driving.jpg';
 import nurseImg from '../assets/female-medical-professional-holds-clipboard-in-hospital-room.jpg';
-import ServicesMap from '../helpers/ServicesMap';
 
 function Services() {
   return (
@@ -59,13 +58,6 @@ function Services() {
             </Card>
           </Col>
         </Row>
-      </Container>
-      <Container className='services-map-block' fluid>
-        <div className='section-title'>
-          <h1 className='title'>Empieza ahora!</h1>
-          <h2 className='subtitle'>Te ayudamos con todo el proceso: </h2>
-        </div>
-        <ServicesMap />
       </Container>
     </div>
   );
