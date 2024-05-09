@@ -12,7 +12,7 @@ function ServicesMap() {
       <Container className="text-center my-5">
         <Row>
           <Col md={6} className="item light-blue">
-              <h2>Preparación para trabajar en Alemania</h2>
+              <h2>Preparación para tu trabajo en Alemania</h2>
               <h2><i class="fa-solid fa-graduation-cap"></i></h2>
               <ul>
                 <li><p><i class="fa-solid fa-circle-check"></i> Curso de alemán</p></li>
@@ -25,9 +25,8 @@ function ServicesMap() {
               <h2><i class="fa-solid fa-school"></i></h2>
               <ul>
               <li><p><i class="fa-solid fa-circle-check"></i> Contacto con empleadores hasta firma del contrato</p></li>
-                <li><p><i class="fa-solid fa-circle-check"></i> On the job training receiving full salary (learning technical terms, etc.)</p></li>
-                <li><p><i class="fa-solid fa-circle-check"></i> Negociación de condiciones justas de trabajo y salario competitivo con empleadores</p></li>
-                <li><p><i class="fa-solid fa-circle-check"></i> Información completa sobre los derechos y obligaciones de la relación laboral en Alemania</p></li>
+                <li><p><i class="fa-solid fa-circle-check"></i> Entrenamiento en el trabajo con salario completo (aprendizaje de términos técnicos, etc.)</p></li>
+                <li><p><i class="fa-solid fa-circle-check"></i> Negociación de condiciones laborales y salario competitivo, junto con información sobre derechos y obligaciones en Alemania.</p></li>
               </ul>
           </Col>
         </Row>

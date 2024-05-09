@@ -10,7 +10,7 @@ function Header() {
     <Navbar data-bs-theme="dark" expand="lg" style={{backgroundColor:"var(--background-color)"}} fixed='top'>
     <Container className='navbar'>
       <Navbar.Brand href="#home">
-        <img src={logo} alt='Talentcol Logo' style={{maxWidth:"8rem"}} className='logo'/>
+        <img src={logo} alt='Talentcol Logo' style={{maxWidth:"12rem"}} className='logo'/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container, Col, Form, Row, Button} from 'react-bootstrap'
 import '../styles/Contact.css'
+import logoGraphic from '../assets/talentcol-logo-graphic.png'
 
 function Contact() {
   return (
@@ -34,7 +35,7 @@ function Contact() {
             </Col>
           </Row>
           <div className='btn-holder'>
-            <Button variant="outline-warning" type='submit' size="lg" >Submit</Button>
+            <Button variant="outline-warning" type='submit' size="lg" >Enviar</Button>
           </div>
         </Form>
         <Container className='call-block'>
@@ -42,6 +43,9 @@ function Contact() {
           <Button variant='outline-warning' size='lg' href='https://calendly.com/cata-webdev/30min'>
               Agenda una llamada ahora!
           </Button>
+        </Container>
+        <Container style={{textAlign:"center"}}>
+          <img alt="logo" src={logoGraphic} style={{maxWidth:"8rem"}} className='mt-5'></img>
         </Container>
       </Container>
     </section>
