@@ -1,9 +1,11 @@
 #info-block {
   color: var(--font-color2);
+  padding: 6rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 6rem;
+  background-color: var(--light-background-color);
 }
 
 .col-lg-4 {

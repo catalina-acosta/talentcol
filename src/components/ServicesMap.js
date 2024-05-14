@@ -31,7 +31,7 @@ function ServicesMap() {
           </Col>
         </Row>
         <Row>
-          <Col md={6} className="item dark-blue">
+          <Col md={6} className="item dark-blue before-last">
               <h2>Llegada a Alemania</h2>
               <h2><i class="fa-solid fa-briefcase"></i></h2>
               <ul>
@@ -40,7 +40,7 @@ function ServicesMap() {
                 <li><p><i class="fa-solid fa-circle-check"></i> Ayuda con aspectos esenciales de la vida en Alemania (como comprar una SIM y activarla, como pedir conseguir vivienda, etc.)</p></li>
               </ul>
           </Col>
-          <Col md={6} className="item light-blue">
+          <Col md={6} className="item light-blue last">
               <h2>Guía para una vida a largo plazo en Alemania</h2>
               <h2><i class="fa-solid fa-flag"></i></h2>
               <ul>
