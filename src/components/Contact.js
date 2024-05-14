@@ -45,7 +45,7 @@ function Contact() {
           </Button>
         </Container>
         <Container style={{textAlign:"center"}}>
-          <img alt="logo" src={logoGraphic} style={{maxWidth:"8rem"}} className='mt-5'></img>
+          <img alt="logo" src={logoGraphic} style={{maxWidth:"4rem"}} className='mt-5'></img>
         </Container>
       </Container>
     </section>

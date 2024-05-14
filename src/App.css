@@ -2,7 +2,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   --background-color: #112e42;
-  --light-background-color: #5968a4;
+  --light-background-color: #153b55;
   --font-color: #77D4FC ;
   --font-color2: #ededed;
   --accent-color: #4B91F1;
@@ -35,4 +35,8 @@ h2, h3, h4, p {
 
 p {
   font-weight: 100;
+}
+
+@media (max-width: 700px) {
+
 }

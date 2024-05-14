@@ -8,7 +8,7 @@
   text-align: center;
 }
 .title-holder h1{
-  color: var(--font-color);
+  color: var(--font-color1);
 }
 .cards-container {
   display: flex;
