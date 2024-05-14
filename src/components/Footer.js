@@ -12,7 +12,7 @@ function Footer() {
             <a href='www.facebook.com'><i className='fab fa-facebook-f'></i></a>
           </li>
           <li>
-            <a href='www.facebook.com'><i className='fab fa-linkedin-in'></i></a>
+            <a href='www.facebook.com'><i class="fa-brands fa-instagram"></i></a>
           </li>
         </ul>
       </div>
