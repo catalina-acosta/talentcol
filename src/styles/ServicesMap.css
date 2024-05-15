@@ -1,6 +1,7 @@
 .services-map-block {
   background-color: var(--background-color);
   color: var(--font-color2);
+  padding: 6rem 0;
 }
 
 .item {

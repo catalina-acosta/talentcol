@@ -4,7 +4,7 @@ import '../styles/ServicesMap.css'
 
 function ServicesMap() {
   return (
-    <Container className='services-map-block' fluid>
+    <Container className='services-map-block block' fluid>
         <div className='section-title'>
           <h1 className='title'>Nuestros servicios</h1>
           <h2 className='subtitle'>Te ayudamos con todo el proceso: </h2>

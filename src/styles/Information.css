@@ -4,13 +4,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 6rem;
   background-color: var(--light-background-color);
 }
 
 .col-lg-4 {
   padding: 0 2rem;
 }
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text-holder {
+  border: 1px solid var(--font-color2);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
 #info-block p{
   text-align: justify;
 }

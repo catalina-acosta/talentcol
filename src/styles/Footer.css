@@ -33,6 +33,9 @@
   line-height: 2;
 }
 
+.socials .fa {
+  line-height: 2;
+}
 #footer .socials a:hover {
   background: var(--accent-color);
   color: var(--background-color)
