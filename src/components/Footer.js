@@ -9,10 +9,7 @@ function Footer() {
       <div className='socials'>
         <ul>
           <li>
-            <a href='www.facebook.com'><i className='fab fa-facebook-f'></i></a>
-          </li>
-          <li>
-            <a href='www.facebook.com'><i class="fa-brands fa-instagram"></i></a>
+            <a href='https://www.facebook.com/profile.php?id=61559338785736'><i className='fab fa-facebook-f'></i></a>
           </li>
         </ul>
       </div>
