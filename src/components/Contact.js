@@ -1,9 +1,21 @@
 import React from 'react';
 import { Container, Col, Form, Row, Button } from 'react-bootstrap';
+import emailjs from '@emailjs/browser';
 import '../styles/Contact.css';
 import logoGraphic from '../assets/talentcol-logo-graphic.png';
 
 function Contact() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    emailjs.sendForm('service_blq7ktc', 'template_zupx90k', event.target, 'CT5blvDack2_s7xqK')
+      .then((result) => {
+        console.log('Email successfully sent:', result.text);
+        event.target.reset();
+      }, (error) => {
+        console.error('Email sending failed:', error.text);
+      });
+  };
+
   return (
     <section id='contact' className='block contact-block'>
       <h1 className='title contact-title'>Tienes preguntas?</h1>
@@ -11,11 +23,11 @@ function Contact() {
         <div className='title-holder'>
           <h1>Escríbenos un mensaje</h1>
         </div>
-        <Form method="POST" action="contact.php" className='contact-form'>
+        <Form className='contact-form' onSubmit={handleSubmit}>
           <Row>
             <Col sm={6}>
               <Form.Label>Información </Form.Label>
-              <Row><Form.Control name="name" type="text" placeholder="Ingresa tu nombre completo" required /></Row>
+              <Row><Form.Control  name="name" type="text" placeholder="Ingresa tu nombre completo" required /></Row>
               <Row><Form.Control name="email" type="email" placeholder="Ingresa tu dirección de correo electrónico" required /></Row>
               <Row><Form.Control name="phone" type="tel" placeholder="Ingresa tu teléfono de contacto" required /></Row>
               <Row>
