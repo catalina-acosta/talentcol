@@ -4,28 +4,16 @@ import emailjs from '@emailjs/browser';
 import '../styles/Contact.css';
 import logoGraphic from '../assets/talentcol-logo-graphic.png';
 
-
 function Contact() {
   const handleSubmit = (event) => {
     event.preventDefault();
-    emailjs
-      .sendForm(
-        'service_blq7ktc',
-        'template_zupx90k',
-        event.target,
-        'CT5blvDack2_s7xqK'
-      )
-      .then(
-        (result) => {
-          console.log('Email successfully sent:', result.text);
-          setTimeout(() => {
-            event.target.reset();
-          }, 100); // Adjust the delay time as needed
-        },
-        (error) => {
-          console.error('Email sending failed:', error.text);
-        }
-      );
+    emailjs.sendForm('service_blq7ktc', 'template_zupx90k', event.target, 'CT5blvDack2_s7xqK')
+      .then((result) => {
+        console.log('Email successfully sent:', result.text);
+        event.target.reset();
+      }, (error) => {
+        console.error('Email sending failed:', error.text);
+      });
   };
 
   return (
