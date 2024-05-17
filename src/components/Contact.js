@@ -1,16 +1,20 @@
-import React from 'react';
+import {React, useState} from 'react';
 import { Container, Col, Form, Row, Button } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 import '../styles/Contact.css';
 import logoGraphic from '../assets/talentcol-logo-graphic.png';
+import ModalMessage from './ModalMessage';
 
 function Contact() {
+  const [openModal, setOpenModal] = useState(false);
+
   const handleSubmit = (event) => {
     event.preventDefault();
     emailjs.sendForm('service_blq7ktc', 'template_zupx90k', event.target, 'CT5blvDack2_s7xqK')
       .then((result) => {
         console.log('Email successfully sent:', result.text);
         event.target.reset();
+        setOpenModal(true); // Open the modal after sending the email
       }, (error) => {
         console.error('Email sending failed:', error.text);
       });
@@ -47,6 +51,7 @@ function Contact() {
           </Row>
           <div className='btn-holder'>
             <Button variant="outline-warning" type='submit' size="lg" >Enviar</Button>
+            {openModal && <ModalMessage closeModal={() => setOpenModal(false)} />}
           </div>
         </Form>
         <Container className='call-block'>
