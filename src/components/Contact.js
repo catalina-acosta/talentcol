@@ -29,7 +29,6 @@ function Contact() {
               <Form.Label>Información </Form.Label>
               <Row><Form.Control  name="name" type="text" placeholder="Ingresa tu nombre completo" required /></Row>
               <Row><Form.Control name="email" type="email" placeholder="Ingresa tu dirección de correo electrónico" required /></Row>
-              <Row><Form.Control name="phone" type="tel" placeholder="Ingresa tu teléfono de contacto" required /></Row>
               <Row>
                 <Form.Group as={Col} controlId="formGridState" className='p-0'>
                   <Form.Label>Por favor elige una de estas opciones: </Form.Label>
@@ -52,7 +51,7 @@ function Contact() {
         </Form>
         <Container className='call-block'>
           <h1>O si prefieres:</h1>
-          <Button variant='outline-warning' size='lg' href='https://calendly.com/cata-webdev/30min'>
+          <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min'>
             Agenda una llamada ahora!
           </Button>
         </Container>

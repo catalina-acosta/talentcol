@@ -11,6 +11,9 @@ function Footer() {
           <li>
             <a href='https://www.facebook.com/profile.php?id=61559338785736'><i className='fab fa-facebook-f'></i></a>
           </li>
+          <li>
+            <a href='https://www.instagram.com/talentcol_colombia/'><i class="fa-brands fa-instagram"></i></a>
+          </li>
         </ul>
       </div>
     </Container>

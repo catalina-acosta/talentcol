@@ -9,33 +9,29 @@ function Information() {
       <Container className="my-5">
         <Row>
           <Col sm={12} md={6} lg={4}>
-            <h2 className="underline">Inicio </h2>
-            <div className='info-box'>
-              <div className='text-holder'>
-                <p>¡No necesitas dinero para empezar!</p>
-                <p>Financiamos todos los costos desde el inicio hasta tu primer día de trabajo en Alemania.</p>
-              </div>
+            <div className='text-holder'>
+              <h2>Inicio </h2>
+              <p>¡No necesitas dinero para empezar!</p>
+              <p>Financiamos todos los costos desde el inicio hasta tu primer día de trabajo en Alemania.</p>
             </div>
           </Col>
           <Col sm={12} md={6} lg={4} >
-          <h2 className="underline">Durante </h2>
-          <div className='info-box'>
             <div className='text-holder'>
+              <h2>Durante </h2>
               <p>¡Empieza a pagar cuando empieces a trabajar!</p>
               <p>Devuelves un porcentaje de tu sueldo mensual por los primeros 3 años de trabajo.</p>
             </div>
-          </div>
           </Col>
           <Col sm={12} md={6} lg={4}>
-            <h2 className=" underline">Después</h2>
             <div className='text-holder'>
+              <h2 >Después</h2>
               <p>¡No más pagos pero sigues con acceso a nuestra comunidad!</p>
               <p>Sigue conectado con nosotros para eventos y asesorías para la vida en Alemania.</p>
             </div>
           </Col>
         </Row>
       </Container>
-      <Button variant='outline-warning' size='lg' href='https://calendly.com/cata-webdev/30min'>
+      <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min'>
         ¡Agenda una llamada ahora mismo!
       </Button>
     </Container>
