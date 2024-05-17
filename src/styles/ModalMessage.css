@@ -1,0 +1,25 @@
+.modalContainer {
+
+}
+
+.modalBackground {
+  background-color: var(--background-color);
+  position: absolute;
+  border-radius: 5px;
+}
+
+.titleCloseBtn {
+  text-align: right;
+}
+
+
+.titleCloseBtn button {
+  color: var(--accent-color);
+  background-color: var(--background-color);
+  border-radius: 5px;
+}
+
+.modalBody p {
+  color: var(--font-color2);
+  padding: 1rem;
+}

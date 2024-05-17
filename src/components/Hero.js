@@ -14,7 +14,7 @@ function Hero() {
         <Container className='hero-text-block' fluid>
           <h1 className='title'>Haz realidad tu sueño de trabajar en <span>Alemania</span></h1>
           <h2 className='subtitle'><span>Triplica</span> tu salario actual</h2>
-          <Button variant='outline-warning' size='lg' href='https://calendly.com/cata-webdev/30min'>
+          <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min'>
           ¡Agenda una llamada ahora mismo!
           </Button>
         </Container>

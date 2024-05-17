@@ -19,21 +19,23 @@
 }
 
 .text-holder {
-  border: 1px solid var(--font-color2);
-  border-radius: 5px;
+  background-color: var(--background-color);
   padding: 1rem;
+  border-radius: 5px;
 }
 
 #info-block p{
   text-align: justify;
 }
 
-.underline {
-  text-decoration: underline var(--accent-color);
-}
 
 @media only screen and (max-width: 767px) {
   #info-block {
     margin: 2rem 0
   }
+
+  .col-lg-4 {
+    margin-bottom: 1rem;
+  }
+
 }

@@ -22,6 +22,19 @@
 }
 
 @media (max-width: 700px) {
+  .services-map-block {
+    padding: 6rem 1rem;
+  }
+
+  .item {
+    padding:0.5rem;
+    margin: 1rem 0;
+  }
+
+  .item ul {
+    padding-left: 0.5rem;
+  }
+
   .before-last {
     background-color: var(--accent-color); /* Change to dark blue color */
   }
