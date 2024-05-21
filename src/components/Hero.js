@@ -6,6 +6,12 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
 function Hero() {
+  const handleScheduleCallClick = () => {
+    if (window.fbq) {
+      window.fbq('track', 'Lead');
+    }
+  };
+
   return (
     <div className='hero-block' id='home'>
       <Container className='p-0 hero-container'>
@@ -14,7 +20,7 @@ function Hero() {
         <Container className='hero-text-block' fluid>
           <h1 className='title'>Haz realidad tu sueño de trabajar en <span>Alemania</span></h1>
           <h2 className='subtitle'><span>Triplica</span> tu salario actual</h2>
-          <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min'>
+          <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min' onClick={handleScheduleCallClick}>
           ¡Agenda una llamada ahora mismo!
           </Button>
         </Container>
