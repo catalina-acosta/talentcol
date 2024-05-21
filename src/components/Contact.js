@@ -13,11 +13,21 @@ function Contact() {
     emailjs.sendForm('service_blq7ktc', 'template_zupx90k', event.target, 'CT5blvDack2_s7xqK')
       .then((result) => {
         console.log('Email successfully sent:', result.text);
+        // Track the lead event with Facebook Pixel
+        if (window.fbq) {
+          window.fbq('track', 'Lead');
+        }
         event.target.reset();
         setOpenModal(true); // Open the modal after sending the email
       }, (error) => {
         console.error('Email sending failed:', error.text);
       });
+  };
+
+  const handleScheduleCallClick = () => {
+    if (window.fbq) {
+      window.fbq('track', 'Lead');
+    }
   };
 
   return (
@@ -56,7 +66,7 @@ function Contact() {
         </Form>
         <Container className='call-block'>
           <h1>O si prefieres:</h1>
-          <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min'>
+          <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min' onClick={handleScheduleCallClick}>
             Agenda una llamada ahora!
           </Button>
         </Container>

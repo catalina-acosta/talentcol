@@ -3,6 +3,13 @@ import '../styles/Information.css'
 import { Container, Col, Row, Button } from 'react-bootstrap'
 
 function Information() {
+
+  const handleScheduleCallClick = () => {
+    if (window.fbq) {
+      window.fbq('track', 'Lead');
+    }
+  };
+
   return (
     <Container fluid id='info-block' className='block'>
       <h1 className='title'>¿Cómo funciona?</h1>
@@ -31,7 +38,7 @@ function Information() {
           </Col>
         </Row>
       </Container>
-      <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min'>
+      <Button variant='outline-warning' size='lg' href='https://calendly.com/info-57nx/30min' onClick={handleScheduleCallClick}>
         ¡Agenda una llamada ahora mismo!
       </Button>
     </Container>
